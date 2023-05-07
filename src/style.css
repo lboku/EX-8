@@ -12,20 +12,15 @@ body{
 .f1-bold--xxl {
     position: absolute;
     display: block;
-    margin-top: 20%;
+    margin-top: 30%;
     margin-left: 50px;
     font-family: F1Bold;
     font-size: 32px;
     line-height: 36px;
     color: aliceblue;
 }
-.Discover{
-    display:flex;
-     text-align: center;
-    justify-content: center;
-    color: white;
-}
- .absolute{
+
+ .flex{
     display: flex;
 } 
 .nav-link{
@@ -41,11 +36,82 @@ body{
     line-height: 24px;
     color: aliceblue;
 }
-.second{
-margin-left: 50%;
+.second{ 
     width: 400px;
-    height: 200px;
+    height: 200px;   
 }
 .Discover{
+    color: white;
+    gap: 20px;
+}
+.pumped{
+    margin-right:20px ;
+    display:inline-flex;
+    gap: 20px;
+}
+.text2{
+    color: aliceblue;
+}
+.less{
+    width: 100%;
+    height: 300px;
+}
+.dv1{
+    margin-top: 10px;
+    width: 400px;
+    height: 350px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.844);
+    text-align: center;
+    align-items: center;
+}
+
+.dv2{
+    margin-top: 10px;
+    width: 400px;
+    height: 350px;
+    background: transparent;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.844);
+    text-align: center;
+    align-items: center;
+}
+.horizontal2 {
+    background-image: url(./img/mcl60.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     display: flex;
+    flex-direction: row;
+    gap: 25px;
+    float: left;
+
+}
+.horizontal1 {
+    background-image: url(./img/blog.jpeg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    float: left;
+
+}
+.paragraph{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding: 5px;
+        color: aliceblue;
+}
+.tab{
+    width: 390px;
+    height: 200px;
 }
