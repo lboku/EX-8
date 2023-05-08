@@ -21,7 +21,7 @@ body{
 }
 
  .flex{
-    display: flex;
+    display:flex;
 } 
 .nav-link{
     color: rgb(241, 238, 238);
@@ -115,3 +115,286 @@ body{
     width: 390px;
     height: 200px;
 }
+.news{
+    background-image: url(./img/Frame\ 1\ \(1\).svg);
+    color: beige;
+}
+@media only screen and (max-width: 1200px){
+    .united{
+        margin-top: 30%;
+            margin-left: 15px;
+        }
+        .f1-bold--xxl{
+            width:90%;
+            margin-top: 40px;
+           }
+           .text{
+            width: 100%;
+            height: 100px;
+          margin-left: 20px;
+           }
+           .second{
+            width: 50%;
+            height: 200px;
+           }
+           .text2{
+            width: 50%;
+            height: 100px;
+           }
+           .less{
+            margin-top: 20px;
+           }
+           .width_600px{
+            display:flex;
+            margin-left: 5px;
+           }
+           .horizontal1{
+            margin-left: 5px;
+            margin-top: 10px;
+            gap: 20px;
+           }
+           .dv1{
+            
+            margin-top: 30px;
+            justify-content: center;
+            width: 50%;
+           
+           }
+           .horizontal2{
+            margin-left: 5px;
+            display: flex;
+            margin-top: 10px;
+            gap: 20px;
+            justify-content: center;
+           }
+           .dv2{
+            margin-top: 30px;
+            justify-content: center;
+            width: 50%;
+            
+           }
+           .tab{
+            width: 100%;
+            height: 150px;
+           }
+           .video{
+            width: 100%;
+            height: 150px;
+           }
+    .news{
+        text-align: center;
+    }
+           }
+@media only screen and (max-width: 992px){
+    .united{
+        margin-top: 30%;
+            margin-left: 15px;
+        }
+        .f1-bold--xxl{
+            width:90%;
+            margin-top: 40px;
+           }
+           .text{
+            width: 100%;
+            height: 100px;
+          margin-left: 20px;
+           }
+           .second{
+            width: 50%;
+            height: 200px;
+           }
+           .text2{
+            width: 50%;
+            height: 100px;
+           }
+           .less{
+            margin-top: 20px;
+           }
+           .width_600px{
+            display:flex;
+            margin-left: 5px;
+           }
+           .horizontal1{
+            margin-left: 5px;
+            margin-top: 10px;
+            gap: 20px;
+           }
+           .dv1{
+            
+            margin-top: 30px;
+            justify-content: center;
+            width: 50%;
+           
+           }
+           .horizontal2{
+            margin-left: 5px;
+            display: flex;
+            margin-top: 10px;
+            gap: 20px;
+            justify-content: center;
+           }
+           .dv2{
+            margin-top: 30px;
+            justify-content: center;
+            width: 50%;
+            
+           }
+           .tab{
+            width: 100%;
+            height: 150px;
+           }
+           .video{
+            width: 100%;
+            height: 150px;
+           }
+    .news{
+        text-align: center;
+    }
+           }
+          
+    
+      
+@media only screen and (max-width: 768px){
+    .united{
+    margin-top: 30%;
+        margin-left: 15px;
+    }
+    .f1-bold--xxl{
+        width:90%;
+        margin-top: 40px;
+       }
+       .text{
+        width: 100%;
+        height: 100px;
+      margin-left: 20px;
+       }
+       .second{
+        width: 50%;
+        height: 200px;
+       }
+       .text2{
+        width: 50%;
+        height: 100px;
+       }
+       .less{
+        margin-top: 20px;
+       }
+       .width_600px{
+        display:flex;
+        margin-left: 5px;
+       }
+       .horizontal1{
+        display: inline-flex;
+        margin-left: 5px;
+        margin-top: 10px;
+        gap: 20px;
+       }
+       .dv1{
+        
+        margin-top: 30px;
+        justify-content: center;
+        width: 50%;
+       
+       }
+       .horizontal2{
+        margin-left: 5px;
+        display: inline-flex;
+        margin-top: 10px;
+        gap: 20px;
+        justify-content: center;
+       }
+       .dv2{
+        margin-top: 30px;
+        justify-content: center;
+        width: 50%;
+        
+       }
+       .tab{
+        width: 100%;
+        height: 150px;
+       }
+       .video{
+        width: 100%;
+        height: 150px;
+       }
+.news{
+    text-align: center;
+}
+       }
+      
+
+@media only screen and (max-width: 576px) {
+    .united {
+        margin-top: 1px;
+        margin-left: 15px;
+    }
+
+    .f1-bold--xxl {
+        padding: 20px;
+        width: 90%;
+        height: 120px;
+        margin-left: 5px;
+
+    }
+
+    .text {
+        font-display: inherit;
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 80px;
+        margin-left: 20px;
+    }
+
+    .second {
+        width: 100%;
+        height: 200px;
+        display: inline-block;
+    }
+
+    .text2 {
+        width: 100%;
+        height: 100px;
+        display: inline;
+    }
+
+    .width_600px {
+        display:contents;
+        margin-left: 5px;
+    }
+
+    .horizontal1 {
+        display: inline;
+        margin-top: 10px;
+        gap: 20px;
+    }
+
+    .dv1 {
+        margin-top: 30px;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .horizontal2 {
+        display: inline;
+        justify-content: center;
+    }
+
+    .dv2 {
+        margin-top: 30px;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tab {
+        width: 100%;
+        height: 150px;
+    }
+
+    .video {
+        width: 100%;
+        height: 150px;
+    }
+ }
